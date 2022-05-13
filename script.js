@@ -185,6 +185,9 @@ function onDrop(event) {
 
       if(quantidadeFilhosNoPoteDestino != QUANTIDADE_BOLINHAS_POTE){
         var firstChild = dropzone.firstChild;
+        
+        //não permitir que colocoque uma bolinha dentro da outra
+        if(!dropzone.className.includes("color") && !draggableElement.className.includes("color") )
         dropzone.insertBefore(draggableElement, firstChild);
         adicionandoEfeitoQuicar(draggableElement);
         //dropzone.appendChild(draggableElement);
