@@ -10,7 +10,7 @@ html, body{
 .bloco-global{
     background-color: darkslategray;
     height: 90%;
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,6 +78,7 @@ html, body{
 @media (max-width: 400px) { 
     .bloco-global{
         background-color: #adc20f;
+        height: 55%;
     }
     .pote{
         height: 65%;
@@ -87,6 +88,7 @@ html, body{
 @media (min-width: 400px) and (max-width: 480px) {
     .bloco-global{
         background-color: pink;
+        height: 45%;
     }
     .pote{
         height: 83%;
@@ -98,6 +100,7 @@ html, body{
 @media (min-width: 480px) and (max-width: 610px) {
     .bloco-global{
         background-color: red;
+        height: 50%;
     }
     .pote{
         height: 90%;
@@ -119,6 +122,7 @@ html, body{
         background-color: green;
     }
     .pote{
-        height: 87%;
+        height: 65%;
+        width: 12%;
     }
 }
