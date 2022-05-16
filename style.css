@@ -74,15 +74,51 @@ html, body{
     }
 }
 
-@media (max-width: 480px) { 
+/* Telefones */
+@media (max-width: 400px) { 
+    .bloco-global{
+        background-color: #adc20f;
+    }
+    .pote{
+        height: 65%;
+        width: 11%;
+    }
 }
+@media (min-width: 400px) and (max-width: 480px) {
+    .bloco-global{
+        background-color: pink;
+    }
+    .pote{
+        height: 83%;
+        width: 12%;
+    }
+}
+
 /* Telefones em paisagem a tablet em retrato */
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 610px) {
+    .bloco-global{
+        background-color: red;
+    }
+    .pote{
+        height: 90%;
+        width: 12%;
+    }
+}
+@media (min-width: 610px) and (max-width: 768px) {
+    .bloco-global{
+        background-color: yellow;
+    }
+    .pote{
+        height: 90%;
+        width: 12%;
+    }
 }
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-}
-/* Desktop grande */
-@media (min-width: 1200px) {
-
+    .bloco-global{
+        background-color: green;
+    }
+    .pote{
+        height: 87%;
+    }
 }
