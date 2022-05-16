@@ -77,7 +77,6 @@ html, body{
 /* Telefones */
 @media (max-width: 400px) { 
     .bloco-global{
-        background-color: #adc20f;
         height: 55%;
     }
     .pote{
@@ -87,7 +86,6 @@ html, body{
 }
 @media (min-width: 400px) and (max-width: 480px) {
     .bloco-global{
-        background-color: pink;
         height: 45%;
     }
     .pote{
@@ -99,7 +97,6 @@ html, body{
 /* Telefones em paisagem a tablet em retrato */
 @media (min-width: 480px) and (max-width: 610px) {
     .bloco-global{
-        background-color: red;
         height: 50%;
     }
     .pote{
@@ -108,9 +105,6 @@ html, body{
     }
 }
 @media (min-width: 610px) and (max-width: 768px) {
-    .bloco-global{
-        background-color: yellow;
-    }
     .pote{
         height: 90%;
         width: 12%;
@@ -118,9 +112,6 @@ html, body{
 }
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    .bloco-global{
-        background-color: green;
-    }
     .pote{
         height: 65%;
         width: 12%;
